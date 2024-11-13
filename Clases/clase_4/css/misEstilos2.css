@@ -1,0 +1,68 @@
+.divCuadrado {
+    width: 250px;
+    height: 250px;
+}
+
+.fondoRojo {
+    background-color: red;
+}
+
+.fondoAzul {
+    background-color: blue;
+}
+
+.fondoVerde {
+    background-color: green;
+}
+
+.fondoNaranja {
+    background-color: orange;
+}
+
+.letraBlanca {
+    color: white;
+}
+
+.contenedor-flexible1 { 
+    height: 500px;
+    border: 15px black solid;   
+    display: flex;
+    flex-direction: row; /* VALOR POR DEFECTO - DIRECCION EJE X*/
+    flex-wrap: nowrap; /* VALOR POR DEFECTO - NO PERMITE DESBORDAMIENTO */
+    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
+    flex-flow: row wrap; /* PROPIEDAD SHORTCUT */
+    justify-content: space-evenly; /* TRABAJA EN EJE PRINCIPAL */
+    align-items: center; /* TRABAJA EN EJE SECUNDARIO */
+}
+
+.contenido1 {
+    align-self: flex-start;
+}
+
+.contenedor-flexible2 {
+    border: 15px blue solid;   
+    display: flex;
+    flex-direction: column; /* DIRECCION EJE Y */
+    gap: 50px;
+    column-gap: 25px;
+    row-gap: 75px;
+}
+
+.contenedor-flexible3 {
+    border: 15px violet solid;   
+    display: flex;
+    flex-direction: row-reverse; /* DIRECCION EJE X - REVERSE */
+}
+
+.contenedor-flexible4 {
+    border: 15px red solid;   
+    display: flex;
+    flex-direction: column-reverse; /* DIRECCION EJE Y - REVERSE */
+}
+
+.contenedor-flexible {
+    border: 15px green solid;   
+    display: flex;
+    flex-direction: row-reverse;
+}

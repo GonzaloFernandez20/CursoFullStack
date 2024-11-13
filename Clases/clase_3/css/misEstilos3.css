@@ -1,0 +1,78 @@
+.fondoRojo {
+    background-color: red;
+}
+
+.letraBlanca {
+    color: white;
+}
+
+.divCuadrado {
+    width: 250px;
+    height: 250px;
+}
+
+/* SELECTORES DESCENDENTES */
+body main > section .contenedor-article h3 {
+    color: green;
+    background-color: black;
+}
+
+main > section .contenedor-article h3 {
+    color: violet;
+}
+
+h3 {
+    color: orange;
+}
+
+/* SELECTOR POR HIJO */
+section > p {
+    color: red;
+}
+
+/*
+h1 {
+    color: blue;
+}
+
+h2 {
+    color: blue;
+}
+*/
+
+/* SELECTOR COMBINADO */
+h1, h2 {
+    color: blue;
+}
+
+/* SELECTOR ADYACENTE */
+h3 + p {
+    font-size: 30px;
+} 
+
+/* SELECTOR POR ATRIBUTO */
+[href] {
+    background-color: blue;
+}
+
+ul:first-child > li:first-child {
+    background-color: violet;
+}
+
+footer > ul > li:last-child{
+    background-color: red;
+}
+
+/* PINTAMOS LOS ELEMENTOS PARES */
+footer > ul > li:nth-child(2n){
+    color: white;
+}
+
+/* PINTAMOS LOS ELEMENTOS IMPARES */
+footer > ul > li:nth-child(2n+1){
+    color: blue;
+}
+
+div.divCuadrado.fondoRojo.letraBlanca:hover {
+    background-color: rgb(112, 55, 55);
+}

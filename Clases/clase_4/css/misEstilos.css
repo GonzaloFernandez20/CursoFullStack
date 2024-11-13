@@ -1,0 +1,73 @@
+.contenedor-texto::first-letter {
+    color: blue;
+    font-weight: bold;
+    font-size: 45px;
+}
+
+.divCuadrado {
+    width: 250px;
+    height: 250px;
+    display: block;
+    /* display: inline; */
+}
+
+.fondoRojo {
+    background-color: red;
+}
+
+.fondoAzul {
+    background-color: blue;
+    position: static; /* VALOR POR DEFECTO QUE TIENEN LOS TODOS LOS ELEMENTOS*/
+    position: relative;
+    position: absolute;
+    position: fixed;
+    position: sticky;
+    top: 50px;
+    left: 50px;
+}
+
+body {
+    height: 2000px;
+}
+
+.fondoVerde {
+    background-color: green;
+}
+
+.fondoNaranja {
+    background-color: orange;
+}
+
+.letraBlanca {
+    color: white;
+}
+
+.divCuadrado:hover::before {
+    content: 'Esto es un contenido dinamico antes del contenido principal!';
+}
+
+.divCuadrado:hover::after {
+    content: 'Esto es un texto añadido con css!';
+}
+
+/*
+.fondoNaranja:hover {
+    display: none;
+}
+*/
+
+.modeloCaja {
+    border: 1px solid yellow;
+    border-color: black;
+    padding: 50px; /* unico valor en unidad de medida */
+    padding: 25px 75px; /* el primer valor es arriba/abajo y el segundo es derecha/izquierda */
+    padding: 50px 150px 300px 750px; /* arriba, derecha, abajo, izquierda */
+    padding-left: 50px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    padding-right: 50px;
+    margin: 50px;
+    margin: 50px 150px;
+    margin: 50px 120px 300px 150px;
+    margin-top: 300px;
+}

@@ -1,0 +1,2 @@
+Realizar el maquetado de una página tipo linktree en base al boceto proporcionado (ejercicio.jpg). En los archivos adjuntos, junto al boceto, van a tener las imagenes que van a necesitar para la pagina (archivo Recursos.rar).
+Se debe poner en práctica lo aprendido de CSS y las propiedades de flexbox.

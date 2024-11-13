@@ -1,0 +1,36 @@
+/* SELECTOR UNIVERSAL => es el selector con menos especificidad */
+* {
+    color: red;
+    margin: 0;
+}
+
+/* SELECTOR DE ETIQUETA */
+h5 {
+    color: green;
+}
+
+/* SELECTOR POR CLASES (CLASS) */
+.letraNaranja {
+    color: orangered;
+}
+
+.letraAzul {
+    color: blue;
+}
+
+.fondoNegro {
+    background-color: black;
+}
+
+.letraGrande {
+    font-size: 800px;
+}
+
+/* SELECTOR POR ID => es el selector mas especifico */
+#unTituloH3 {
+    font-size: 45px;
+}
+
+.container-texto {
+    font-size: 48px;
+}
