@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formularios</title>
+    </head>
+    <body>
+        <form method="get" action="./response_get.php">
+            <label for="usuario">Nombre: </label><input type="text" id="usuario" name="usuario" autocomplete="off">
+            <br>
+            <label for="password">Contraseña: </label><input type="password" id="password" name="password">   
+            <br>
+            <p>Esto es un parrafo</p>
+            <!-- <input type="submit"> -->
+            <button>Enviar Formulario 1</button>
+        </form>
+        <form method="post" action="./response_post.php">            
+            <input type="number" id="edad" name="edad" placeholder="Ingrese una edad...">
+            <br>
+            <button>Enviar Formulario 2</button>
+        </form>
+    </body>
+</html>
