@@ -62,7 +62,6 @@
         echo $mensaje_error;
     }
 
-
     function validar_datos(&$mensaje_error){
 
         if ( !isset($_POST["alumno"]) || empty($_POST["alumno"])) {
